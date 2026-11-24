@@ -1,0 +1,6 @@
+model,accuracy,balanced_accuracy,macro_f1
+k-NN (k=5),0.773,0.758,0.746
+Custom CNN,0.848,0.837,0.835
+Custom CNN + TTA,0.864,0.85,0.849
+ResNet-50 (fine-tuned),0.939,0.933,0.933
+ResNet-50 + TTA,0.97,0.967,0.967
