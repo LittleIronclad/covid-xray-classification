@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pt
+*.pth
+data/
+Covid19-dataset/
+.DS_Store
