@@ -7,8 +7,6 @@
 
 Three-class classification of chest radiographs, comparing models of increasing capacity — a pixel-space **k-NN** baseline, a **custom CNN trained from scratch**, and a fine-tuned **ResNet-50** — with **Grad-CAM** to check what the networks actually look at.
 
-<p align="center"><img src="figures/samples.png" width="600" alt="Example images from each class"></p>
-
 ## Highlights
 
 - **Leakage-free evaluation.** The official test split is never augmented or used for model selection; a stratified validation split is taken *before* augmentation.
@@ -37,7 +35,6 @@ Untouched test set: 66 images (26 COVID, 20 Normal, 20 Viral Pneumonia).
 
 ```
 notebooks/covid_xray_classification.ipynb   end-to-end pipeline: EDA → models → TTA → Grad-CAM → results
-figures/                                    plots produced by the notebook
 requirements.txt
 ```
 
