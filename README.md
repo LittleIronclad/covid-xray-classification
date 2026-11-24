@@ -47,7 +47,7 @@ requirements.txt
 pip install -r requirements.txt
 jupyter notebook notebooks/covid_xray_classification.ipynb
 ```
-To use a local copy of the data, set `DATA_DIR=/path/to/Covid19-dataset`.
+To use a local copy of the data, unzip it so that `Covid19-dataset/` sits in the repository root (or set `DATA_DIR`). On Apple Silicon Macs the notebook uses the GPU via MPS automatically.
 
 ## Data
 
